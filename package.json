@@ -1,5 +1,5 @@
 {
-  "name": "@edvengers2-ms/event",
+  "name": "mf-transaction",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -67,8 +67,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run test"
     }
   }
 }

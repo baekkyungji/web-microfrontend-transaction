@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
-import Event from "./Event";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Transaction from "./Transaction";
 
 class App extends Component {
   render() {
@@ -9,7 +9,7 @@ class App extends Component {
       <BrowserRouter>
         <React.Fragment>
           <Switch>
-            <Route exact path="/event" component={Event} />
+            <Route exact path="/transaction" component={Transaction} />
           </Switch>
         </React.Fragment>
       </BrowserRouter>

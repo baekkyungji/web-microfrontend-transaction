@@ -1,10 +1,9 @@
-import React, {Component} from "react";
+import React, { PureComponent } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Transaction from "./Transaction";
 
-class App extends Component {
+class App extends PureComponent {
   render() {
-
     return (
       <BrowserRouter>
         <React.Fragment>
